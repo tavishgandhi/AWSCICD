@@ -3,12 +3,13 @@
 ```
 sudo yum update -y
 sudo yum install -y ruby wget
-wget https://aws-codedeploy-eu-west-1.s3.eu-west-1.amazonaws.com/latest/install
+wget wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install
 chmod +x ./install
 sudo ./install auto
 sudo service codedeploy-agent status
 ```
 
+Refer https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html
 
 # create a bucket and enable versioning
 ```
